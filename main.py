@@ -7,6 +7,7 @@ Removed = выздоровевшие + умершие
 • численность популяции постоянна (нет рождений);
 • каждый человек имеет одинаковый шанс стать зараженным и удаленным из рассмотрения.
 """
+# PRIVET
 from scipy.integrate import odeint  # function for ODE solving
 from manim import *
 from manim.utils.unit import Pixels
